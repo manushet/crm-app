@@ -21,7 +21,6 @@
             </div>
         </header>
         <router-view></router-view>
-        <!-- <footer></footer> -->
     </div>
 </template>
 
@@ -31,6 +30,7 @@
             links: [
                 { to: '/', title: 'Home' },
                 { to: '/users', title: 'Users' },
+                { to: '/notify', title: 'Notify' },
             ]
         }),
     }
